@@ -13,7 +13,7 @@ This repository serves two primary purposes:
 
 ---
 
-## Project 1: Amazon's Coupon Strategy: A Machine Learning Approach
+## [Project 1: Amazon's Coupon Strategy: A Machine Learning Approach](Practical%20Application%201/Practical%20Application%201.ipynb)
 
 ### Business Case
 
@@ -35,8 +35,8 @@ Here’s how I’ve organized this repository:
 - **`Practical Application1/`**:
   - **`data/`**: Raw and processed datasets for analysis.
   - **`images/`**: Visualizations and supporting media files.
-  - [Practical Application 1](Practical%20Application%201.ipynb): Jupyter notebook containing exploratory data analysis, feature engineering, and machine learning workflows
-  - **`README.md`**: file with a summary of findings and a link to the Jupyter notebook.
+  - [Practical Application 1](Practical%20Application%201/Practical%20Application%201.ipynb): Jupyter notebook containing exploratory data analysis, feature engineering, and machine learning workflows
+  - **[README.md](Practical%20Application%201/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
 - **`README.md`**: This file provides an overview of repository and the projects.
 
 ## Next Steps
