@@ -53,8 +53,8 @@ Here’s how I’ve organized this repository:
     - **`images/`**: Visualizations and supporting media files.
 - **`Practical Application2/`**:
     - **[README.md](Practical%20Application%202/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
+    - [Colab Notebook > 50MB](https://colab.research.google.com/drive/12HP7MfVSIuoIn7-hQCa9PPx_IHdGqTYS?usp=sharing)
     - [Practical Application 2](Practical%20Application%202/Practical%20Application%202.ipynb): Jupyter notebook containing analysis using CRISP-DM.
-      - [Colab Notebook > 50MB](https://colab.research.google.com/drive/12HP7MfVSIuoIn7-hQCa9PPx_IHdGqTYS?usp=sharing)
     - **`data/`**: ´vehicles.csv´ raw dataset for analysis.
     - **`images/`**: Visualizations and supporting media files.
     
