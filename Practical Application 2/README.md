@@ -46,32 +46,41 @@ The dataset includes three key variables: Price ($), Year (Manufacturing Year), 
 
 | Statistic       | Price ($)     | Year      | Odometer (miles) |
 |-----------------|---------------|-----------|------------------|
-| **Count**       | 426,880       | 425,675   | 422,480          |
-| **Mean**        | 75,199        | 2011      | 98,043           |
-| **Median (50%)**| 13,950        | 2013      | 85,548           |
-| **Min**         | 0             | 1900      | 0                |
-| **Max**         | 373,692,871   | 2022      | 10,000,000       |
+| **Count**       | 354,750       | 354,750   | 354,750          |
+| **Mean**        | 18,241        | 2011      | 89,877           |
+| **Median (50%)**| 15,888        | 2013      | 85,170           |
+| **Min**         | 167           | 1900      | 6                |
+| **Max**         | 58,292        | 2022      | 275,915          |
 
 ### Key Observations
-- **Outliers in Price & Mileage**: A max price of $373M and mileage of 10M miles suggest data issues.
-- **Right-Skewed Distribution**: The median price ($13,950) is significantly lower than the mean ($75,199), indicating a right-skewed distribution of prices.
-- **Missing Data**: The year and odometer fields have missing values, requiring imputation or removal.
+- **Price Variation**: A wide range in prices, from $167 to $58,292, suggests diverse car types and conditions.
+- **Age Distribution**: The data spans over a century of manufacturing years (1900-2022), likely with a concentration in recent years.
+- **Mileage Variation**:  A large range in odometer readings (6 to 275,915 miles) indicates varying usage levels.
 
 ### Inferential Statistics Considerations
-- **Skewness & Outliers**: Extreme values should be filtered out to avoid skewing the analysis.
+- **Central Tendency vs. Dispersion**: The difference between mean and median price suggests potential skewness.  Further analysis is needed to understand the price distribution.
 - **Expected Correlations**:
   - Negative correlation: Higher mileage → lower price.
   - Positive correlation: Newer cars → higher price.
-- **Regression Modeling**: The next steps involve predicting car price using variables such as mileage, year, brand, and fuel type.
+- **Outlier Management**:  The minimum and maximum values for price and odometer warrant investigation to determine if they are genuine or erroneous data points.  Handling potential outliers will be important for robust analysis.
+- **Regression Modeling**: The next steps involve predicting car price using variables such as year/mileage, brand, and fuel type.
 
-
-![Acceptance Rate Plot](images/numerics.png)
+![Numerical Feature Box Plot](images/numerics.png)
 
 ### Data Cleaning Recommendations
-- Remove unrealistic values (e.g., price = 0, year = 1900, odometer > 500,000).
 - Normalize or log-transform price to reduce skewness.
 - Address missing values in year and odometer columns.
 - Perform a correlation matrix and regression analysis to validate trends.
+
+### Model Performance and Implications**
+
+Our analysis included several models to predict used car prices. The performance varied significantly:
+
+*   **Top Performers:** K-Nearest Neighbors (71.92%) and Ridge Regression (68.11%) demonstrated the highest accuracy in predicting used car prices. This suggests these models are particularly adept at capturing the complex relationships between vehicle features and price. We will prioritize these models for pricing and inventory decisions.
+*   **Promising Models:** Linear Regression (Polynomial) (67.49%) showed moderate performance. Further investigation is warranted to understand its limitations and potential for improvement. Explore refining the feature engineering or model parameters to enhance its predictive capabilities.
+*   **Lower Performing Models:** Linear Regression (Numerical) (33.01%) and Linear Regression (Categorical) (37.33%) exhibited the lowest accuracy. Relying solely on numerical or categorical features in isolation appears insufficient for accurate price prediction. We will re-evaluate the use of these features and consider how they are incorporated within the higher-performing models.  Lasso and Sequential Feature Selection also fall into this category based on the plot.
+
+![Models](images/model_performance.jpg)
 
 ## Recommendations and Next Steps
 
@@ -89,9 +98,16 @@ The dataset includes three key variables: Price ($), Year (Manufacturing Year), 
 - Perform cross-validation to ensure model robustness and generalizability.
 
 ### Market Insights & Business Strategy
-- Optimize inventory by prioritizing vehicle types and brands that retain value over time.
-- Adjust pricing strategies based on geographic demand and vehicle condition.
-- Monitor depreciation trends to improve the timing of buying and selling vehicles.
+
+Our market analysis reveals two crucial factors driving used car pricing: brand reputation and vehicle condition.
+
+- Brand Reputation: Premium brands enjoy stronger value retention due to perceived quality and reliability.
+- Vehicle Condition: Critically, vehicle condition—encompassing exterior, interior, and mechanical aspects—significantly impacts price. Our high-performing predictive models confirm this, demonstrating sensitivity to condition-related features.
+
+Therefore, a core business strategy will be:
+
+- Prioritizing Acquisition: Prioritize the acquisition and stocking of well-maintained, high-quality vehicles, particularly those from reputable brands, to maximize profitability.
+
 
 ## Conclusion
 This project provides an in-depth analysis of the key factors influencing used car prices using a CRISP-DM approach. We have identified several critical insights:
