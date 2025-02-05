@@ -28,15 +28,35 @@ Amazon's idea is to leverage real-time driver route information to send targeted
 3. What factors influence coupon acceptance, such as time of day, destination, or demographics?
 4. Will this strategy work?
 
+
+## [Project 2: What drives the price of a car?: A CRISP-DM Approach](Practical%20Application%201/Practical%20Application%202.ipynb)
+
+### Business Case
+
+A used car dealership seeks to understand the key factors that influence the price of a used car. By analyzing a dataset of 426K used cars, we aim to identify trends and patterns that determine a vehicle's value. The dealership can leverage these insights to optimize pricing strategies, manage inventory effectively, and better align offerings with customer preferences.
+
+### Key Questions I Aim to Address:
+1. What are the most influential factors affecting the price of a used car?
+2. How do vehicle mileage and model year influence pricing trends? 
+3. Do certain car brands retain value better, and how does vehicle condition affect pricing? 
+4. Are there differences in used car pricing based on geographic location? 
+5. Do fuel type (e.g., gasoline, diesel, electric) and transmission type (manual vs. automatic) significantly impact resale value?
+
 ## Repository Structure
 
 Here’s how I’ve organized this repository:
 
 - **`Practical Application1/`**:
-  - **`data/`**: Raw and processed datasets for analysis.
-  - **`images/`**: Visualizations and supporting media files.
-  - [Practical Application 1](Practical%20Application%201/Practical%20Application%201.ipynb): Jupyter notebook containing exploratory data analysis, feature engineering, and machine learning workflows
-  - **[README.md](Practical%20Application%201/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
+    - **[README.md](Practical%20Application%201/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
+    - [Practical Application 1](Practical%20Application%201/Practical%20Application%201.ipynb): Jupyter notebook containing exploratory data analysis, feature engineering, and machine learning workflows
+    - **`data/`**: Raw and processed datasets for analysis.
+    - **`images/`**: Visualizations and supporting media files.
+- **`Practical Application2/`**:
+    - **[README.md](Practical%20Application%202/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
+    - [Practical Application 2](Practical%20Application%202/Practical%20Application%202.ipynb): Jupyter notebook containing analysis using CRISP-DM.
+    - **`data/`**: ´vehicles.csv´ raw dataset for analysis.
+    - **`images/`**: Visualizations and supporting media files.
+    
 - **`README.md`**: This file provides an overview of repository and the projects.
 
 ## Next Steps

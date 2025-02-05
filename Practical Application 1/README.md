@@ -32,15 +32,15 @@ The dataset originates from the UCI Machine Learning Repository and was collecte
   -  has_children: Number of children with values 0, 1, or more than 1
   -  education: high school, bachelors degree, associates degree, or graduate degree
   -  occupation: architecture & engineering, business & financial, etc.
-  -  income: Annual income with values less than $12500, $12500 - $24999, $25000 - $37499, etc.
+  -  income: Annual income with values less than \$12500, \$12500 - \$24999, \$25000 - \$37499, etc.
   -  Bar: Number of times that he/she goes to a bar: 0, less than 1, 1 to 3, 4 to 8 or greater than 8
   -  CarryAway: Number of times that he/she buys takeaway food: 0, less than 1, 1 to 3, 4 to 8 or greater
   than 8
   -  CoffeeHouse: Number of times that he/she goes to a coffee house: 0, less than 1, 1 to 3, 4 to 8 or
   greater than 8
-  -  RestaurantLessThan20: Number of times that he/she eats at a restaurant with average expense less than $20 per
+  -  RestaurantLessThan20: Number of times that he/she eats at a restaurant with average expense less than \$20 per
   person: 0, less than 1, 1 to 3, 4 to 8 or greater than 8
-  - Restaurant20To50: Number of times do you go to a restaurant with average expense per person of $20 - $50 every month.
+  - Restaurant20To50: Number of times do you go to a restaurant with average expense per person of \$20 - \$50 every month.
 
 
 ### Contextual Attributes:
@@ -61,7 +61,7 @@ The dataset originates from the UCI Machine Learning Repository and was collecte
   - y: accept the coupon:
     - "Right away",“Later, before the coupon expires" 1
     - "No, I do not want the coupon" 0
-  - coupon: type of coupon with values Restaurant(<$20), Coffee House, Carry out & Take away, Bar, Restaurant($20-$50)
+  - coupon: type of coupon with values Restaurant(<\$20), Coffee House, Carry out & Take away, Bar, Restaurant(\$20-\$50)
 
 ---
 
