@@ -2,7 +2,7 @@
 
 # Practical Application 2: What Drives the Price of a Car? A CRISP-DM Approach
 
-This project [Colab](https://colab.research.google.com/drive/12HP7MfVSIuoIn7-hQCa9PPx_IHdGqTYS?usp=sharing) or [github](**Practical%20Application%202.ipynb**) follows the CRISP-DM (Cross-Industry Standard Process for Data Mining) framework, a widely adopted methodology for structuring data science projects. Using a dataset of 426,000 used cars, the goal is to uncover the key factors that influence vehicle pricing and provide actionable insights for a used car dealership.
+This project at [github](**Practical%20Application%202.ipynb**) or [Colab](https://colab.research.google.com/drive/12HP7MfVSIuoIn7-hQCa9PPx_IHdGqTYS?usp=sharing) follows the CRISP-DM (Cross-Industry Standard Process for Data Mining) framework, a widely adopted methodology for structuring data science projects. Using a dataset of 426,000 used cars, the goal is to uncover the key factors that influence vehicle pricing and provide actionable insights for a used car dealership.
 
 ## Business Case
 A used car dealership aims to optimize its pricing strategy by understanding the factors that influence the price of a used car. By analyzing historical listing data, we can identify pricing trends, assess vehicle depreciation patterns, and determine how various attributes—such as mileage, model year, brand, and location—affect resale value. These insights will enable the dealership to:
