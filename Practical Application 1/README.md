@@ -1,6 +1,6 @@
 # Amazon's Coupon Strategy
 
-This [Practical Application 1](**Practical%20Application%201.ipynb**) examines Amazon's proposed strategy of leveraging driver route data to send targeted coupons, aiming to drive customer traffic to local businesses. By employing machine learning (ML) techniques, the project evaluates the feasibility of this approach, building predictive models to determine the likelihood of coupon acceptance.
+This [Practical Application 1](Practical%20Application%201.ipynb) examines Amazon's proposed strategy of leveraging driver route data to send targeted coupons, aiming to drive customer traffic to local businesses. By employing machine learning (ML) techniques, the project evaluates the feasibility of this approach, building predictive models to determine the likelihood of coupon acceptance.
 
 ---
 
