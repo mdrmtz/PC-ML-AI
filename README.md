@@ -42,6 +42,19 @@ A used car dealership seeks to understand the key factors that influence the pri
 4. Are there differences in used car pricing based on geographic location? 
 5. Do fuel type (e.g., gasoline, diesel, electric) and transmission type (manual vs. automatic) significantly impact resale value?
 
+## [Project 3: Comparing Classifiers](Practical%20Application%203/Practical%20Application%203.ipynb)
+
+### Business Case
+
+The Business Objective of the data mining task, as stated in the paper, is to increase the efficiency of directed marketing campaigns for long-term bank deposit subscriptions by identifying a model that can explain the success of a contact (i.e., if the client subscribes to the deposit) and subsequently reduce the number of contacts needed while maintaining a similar number of successes. This involves understanding the main characteristics that affect success, which will help in better managing available resources and selecting a high-quality set of potential buying customers
+
+### Key Questions I Aim to Address:
+1. How can data mining improve the efficiency of bank direct marketing campaigns?
+2. What is the CRISP-DM methodology and how is it applied in this context?
+3. What kind of data was used and how was it prepared for analysis?
+4. What data mining models were used and how were they evaluated?
+
+
 ## Repository Structure
 
 Here’s how I’ve organized this repository:
@@ -53,11 +66,15 @@ Here’s how I’ve organized this repository:
     - **`images/`**: Visualizations and supporting media files.
 - **`Practical Application2/`**:
     - **[README.md](Practical%20Application%202/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
-    - [Colab Notebook > 50MB](https://colab.research.google.com/drive/12HP7MfVSIuoIn7-hQCa9PPx_IHdGqTYS?usp=sharing)
     - [Practical Application 2](Practical%20Application%202/Practical%20Application%202.ipynb): Jupyter notebook containing analysis using CRISP-DM.
+    - [Colab Notebook](https://colab.research.google.com/drive/12HP7MfVSIuoIn7-hQCa9PPx_IHdGqTYS?usp=sharing)
     - **`data/`**: ´vehicles.csv´ raw dataset for analysis.
     - **`images/`**: Visualizations and supporting media files.
-    
+- **`Practical Application3/`**:
+    - **[README.md](Practical%20Application%203/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
+    - [Practical Application 3](Practical%20Application%203/Practical%20Application%203.ipynb): Jupyter notebook containing analysis comparing classifiers.
+    - **`data/`**: ´bank-additional.csv´ raw dataset for analysis.
+    - **`images/`**: Visualizations and supporting media files.    
 - **`README.md`**: This file provides an overview of repository and the projects.
 
 ## Next Steps
