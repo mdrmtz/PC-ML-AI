@@ -55,6 +55,15 @@ The Business Objective of the data mining task, as stated in the paper, is to in
 4. What data mining models were used and how were they evaluated?
 
 
+
+## Capstone
+
+### Initial Report and Exploratory Data Analysis (EDA)
+
+#### Business Case
+
+This research project aims to develop predictive models for Performance Score based on Core Web Vitals (LCP, INP, and CLS) by analyzing various website characteristics. By leveraging machine learning techniques and data from Blue Triangle RUM, the study will identify key factors influencing website performance. The outcome will be actionable insights and tools that empower developers and website owners to optimize their sites for improved user experience and search engine rankings.
+
 ## Repository Structure
 
 Here’s how I’ve organized this repository:
@@ -74,7 +83,13 @@ Here’s how I’ve organized this repository:
     - **[README.md](Practical%20Application%203/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
     - [Practical Application 3](Practical%20Application%203/Practical%20Application%203.ipynb): Jupyter notebook containing analysis comparing classifiers.
     - **`data/`**: ´bank-additional.csv´ raw dataset for analysis.
-    - **`images/`**: Visualizations and supporting media files.    
+    - **`images/`**: Visualizations and supporting media files.
+- **`CapstoneAssignment/`**:
+    - **[README.md](CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
+    - [Capstone(EDA).ipynb](CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/Capstone(EDA).ipynb): Jupyter notebook containing analysis comparing classifiers.
+    - **`CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/data/`**: ´btt_cwv_2024.csv´ and ´performance_page_df.csv´ raw dataset for analysis.
+    - **`CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/images/`**: Visualizations and supporting media files.
+    - **[README.md](CapstoneAssignment/README.md)**: file with a historical summary of Capstone Assignment for Module 6, 16 and 20.
 - **`README.md`**: This file provides an overview of repository and the projects.
 
 ## Next Steps

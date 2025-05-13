@@ -1,4 +1,4 @@
-# Predicting Core Web Vitals Performance based on Website Characteristics
+# Predicting Performance Score based on Core Web Vitals (LCP, INP, and CLS) metrics based and Website Characteristics
 
 **Miguel Daniel Ramos Martinez**
 
@@ -16,7 +16,7 @@ Core Web Vitals are crucial metrics for evaluating website user experience, dire
 
 #### Research Question
 
-Which measurable website attributes (derived from CrUX, HTTP Archive, and Blue Triangle RUM data) are the most significant predictors of Core Web Vitals (LCP, INP, and CLS) performance?
+Which measurable website attributes (derived from CrUX, HTTP Archive, and Blue Triangle RUM data) are the most significant predictors of Performance Score (based on Core Web Vitals (LCP, INP, and CLS)?
 
 #### Data Sources
 1. Real User Monitoring (RUM) Data (Blue Triangle): Performance data specific to our client's website, potentially offering more granular insights and custom metrics beyond standard CrUX data. This can complement the CrUX data and provide a deeper understanding of our specific context.
