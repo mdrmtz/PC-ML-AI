@@ -1,4 +1,4 @@
-# Predicting Performance Score based on Core Web Vitals (LCP, INP, and CLS) metrics based and Website Characteristics
+# Predicting Performance Score based on Core Web Vitals (LCP, INP, CLS) and Website Characteristics
 
 **Miguel Daniel Ramos Martinez**
 

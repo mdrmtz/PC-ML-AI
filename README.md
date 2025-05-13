@@ -54,11 +54,9 @@ The Business Objective of the data mining task, as stated in the paper, is to in
 3. What kind of data was used and how was it prepared for analysis?
 4. What data mining models were used and how were they evaluated?
 
+# Capstone
 
-
-## Capstone
-
-### Initial Report and Exploratory Data Analysis (EDA)
+## [Initial Report and Exploratory Data Analysis (EDA)](CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/Capstone(EDA).ipynb)
 
 #### Business Case
 
