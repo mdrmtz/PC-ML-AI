@@ -58,6 +58,8 @@ The Business Objective of the data mining task, as stated in the paper, is to in
 
 ## [Initial Report and Exploratory Data Analysis (EDA)](CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/Capstone(EDA).ipynb)
 
+## [Final Report](CapstoneAssignment/Capstone/Capstone.ipynb)
+
 #### Business Case
 
 This research project aims to develop predictive models for Performance Score based on Core Web Vitals (LCP, INP, and CLS) by analyzing various website characteristics. By leveraging machine learning techniques and data from Blue Triangle RUM, the study will identify key factors influencing website performance. The outcome will be actionable insights and tools that empower developers and website owners to optimize their sites for improved user experience and search engine rankings.
@@ -65,6 +67,13 @@ This research project aims to develop predictive models for Performance Score ba
 ## Repository Structure
 
 Here’s how I’ve organized this repository:
+
+- **`Capstone/`**:
+    - [Capstone](CapstoneAssignment/Capstone/Capstone.ipynb): Jupyter notebook containing analysis comparing models.
+    - [Time Series Analysis](CapstoneAssignment/Capstone/TimeSeries.ipynb): Jupyter notebook containing time series analysis and forecasting.
+    - **`CapstoneAssignment/Capstone/data/`**: ´btt_cwv_2024.csv´ and ´performance_page_df.csv´ raw dataset for analysis.
+    - **`CapstoneAssignment/Capstone/images/`**: Visualizations and supporting media files.
+    - **[README.md](CapstoneAssignment/Capstone/README.md)**: final technical findings and the nontechnical report of a capstone project and a link to the Jupyter's notebooks.
 
 - **`Practical Application1/`**:
     - **[README.md](Practical%20Application%201/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
@@ -84,7 +93,7 @@ Here’s how I’ve organized this repository:
     - **`images/`**: Visualizations and supporting media files.
 - **`CapstoneAssignment/`**:
     - **[README.md](CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/README.md)**: file with a summary of findings and a link to the Jupyter notebook.
-    - [Capstone(EDA).ipynb](CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/Capstone(EDA).ipynb): Jupyter notebook containing analysis comparing classifiers.
+    - [Capstone(EDA).ipynb](CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/Capstone(EDA).ipynb): Jupyter notebook containing analysis comparing models.
     - **`CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/data/`**: ´btt_cwv_2024.csv´ and ´performance_page_df.csv´ raw dataset for analysis.
     - **`CapstoneAssignment/InitialReportAndExploratoryDataAnalysis(EDA)/images/`**: Visualizations and supporting media files.
     - **[README.md](CapstoneAssignment/README.md)**: file with a historical summary of Capstone Assignment for Module 6, 16 and 20.
